@@ -9,7 +9,7 @@ propka2.0_2008-11-12.f: PROPKA 2.0 fortran source code.
 
 
 # propka2.0.pl:
-Executes PROPKA 2.0 and runs the python scripts dgl.py and pIl.py. Requires that the PROPKA 2.0 executable file is named 'propka2.0' and located in the pwd or in a bin directory along with dgl.py and pIl.py. In addition OPEN BABEL is required.
+Executes PROPKA 2.0 and runs the python scripts dgl.py and pIl.py. Requires that the PROPKA 2.0 executable file is named 'propka2.0' and located in the pwd or in a bin directory along with dgl.py and pIl.py. In addition [Open Babel](http://www.openbabel.org) is required.
 
 Usage:  propka2.0.pl -i xxxx.pdb [-c 'Chain ID(s)' -s -apo -m 'NMR Model Number']
 Example:  propka2.0.pl -i 1K1I.pdb (chain A w/ ligand FD1) 
